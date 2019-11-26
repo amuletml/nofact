@@ -9,7 +9,7 @@ type complex 'a = Complex of { real : 'a, imaginary : 'a }
 let (Complex x) !+ (Complex y) =
   Complex {
     real = x.real +. y.real,
-    imaginary = x.imaginary +. y.imaginary 
+    imaginary = x.imaginary +. y.imaginary
   }
 
 let (Complex { real = x, imaginary = y }) !* (Complex { real = x', imaginary = y' }) =
