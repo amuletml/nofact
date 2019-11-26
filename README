@@ -1,0 +1,11 @@
+nofact
+======
+
+nofact is a benchmark suite for the Amulet compiler. The name was
+totally not stolen from GHC's nofib.
+
+Current benchmarks:
+
+* mandelbrot
+  computes and prints a 80x41 render of the Mandelbrot set to the
+  standard output device.

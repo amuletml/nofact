@@ -1,0 +1,6 @@
+*.ss
+*.c
+*.out
+*.lua
+
+PROFILE.*
